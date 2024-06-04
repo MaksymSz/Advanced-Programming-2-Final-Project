@@ -19,4 +19,31 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: lightblue;
+  color: black;
+}
+
+.navbar-custom {
+  background-color: black;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+  color: white;
+}
+
+
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: deepskyblue;
+}
+
+.navbar-custom .navbar-nav .nav-link i {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
 }

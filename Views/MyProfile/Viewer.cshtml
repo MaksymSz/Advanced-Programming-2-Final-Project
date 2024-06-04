@@ -1,5 +1,12 @@
-﻿@model LoginTest.Models.AspNetUser
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@model LoginTest.Models.AspNetUser
 @{
     ViewData["Title"] = "My profile page";
 }
+
+@if(SignInManager.IsSignedIn(User))
+{
+    <p> @User.Identity?.Name 's Profile</p>
+    }
 

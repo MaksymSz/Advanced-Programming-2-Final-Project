@@ -45,7 +45,7 @@ public class EventsIndexController : Controller
     
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Create([Bind("EventId,Name,Description,Place,EventDate")] Event @event)
+    public async Task<IActionResult> Create([Bind("EventId,OwnerId,Name,Description,Place,EventDate")] Event @event)
     {
         if (ModelState.IsValid)
         {
