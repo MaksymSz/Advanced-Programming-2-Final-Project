@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Globalization;
+using Microsoft.AspNetCore.Mvc;
 using LoginTest.Data;
 using Microsoft.EntityFrameworkCore;
 using LoginTest.Models;
 using LoginTest.Data;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace LoginTest.Controllers;
 
@@ -23,7 +25,7 @@ public class EventsIndexController : Controller
         var events = await _context.Events.ToListAsync();
         return View(events);
     }
-    
+
     public async Task<IActionResult> Details(int? id)
     {
         if (id == null)
@@ -40,26 +42,35 @@ public class EventsIndexController : Controller
 
         return View(@event);
     }
-    
+
     public IActionResult Create()
     {
         return View();
     }
-    
+
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create([Bind("EventId,OwnerId,Name,Description,Place,EventDate")] Event @event)
     {
+
+        // @event.EventDate = @event.EventDate.ToString("yyyy-MM-dd");
+        // var unixTimestamp = (int)DateTime.Now.Subtract(new DateTime(1970, 1, 1)).TotalSeconds;
+        @event.OwnerId = _userManager.GetUserId(User);
+        ModelState["OwnerId"].ValidationState = ModelValidationState.Valid;
         if (ModelState.IsValid)
         {
-            @event.OwnerId = _userManager.GetUserId(User);
-            _context.Add(@event);
+            Console.WriteLine("ModelState valid");
+            // _context.Add(@event);
+            Console.WriteLine(@event.ToString());
+            _context.Events.Add(@event);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+
+
         return View(@event);
     }
-    
+
     public async Task<IActionResult> Edit(int? id)
     {
         if (id == null)
@@ -72,9 +83,10 @@ public class EventsIndexController : Controller
         {
             return NotFound();
         }
+
         return View(@event);
     }
-    
+
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(int id, [Bind("EventId,Name,Description,Place,EventDate")] Event @event)
@@ -102,11 +114,13 @@ public class EventsIndexController : Controller
                     throw;
                 }
             }
+
             return RedirectToAction(nameof(Index));
         }
+
         return View(@event);
     }
-    
+
     public async Task<IActionResult> Delete(int? id)
     {
         if (id == null)
@@ -123,7 +137,7 @@ public class EventsIndexController : Controller
 
         return View(@event);
     }
-    
+
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id)
