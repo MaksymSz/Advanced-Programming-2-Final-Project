@@ -1,7 +1,7 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
-@model LoginTest.Models.AspNetUser
+@model IEnumerable<LoginTest.Models.Friendship>
 @{
     ViewData["Title"] = "My profile page";
 }
@@ -10,3 +10,13 @@
 {
     <p> @UserManager.GetUserId(User) 's Profile</p>
 }
+
+<body>
+<h1>Friends </h1>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@item.SecondUserId</li>
+    }
+</ul>
+</body>
