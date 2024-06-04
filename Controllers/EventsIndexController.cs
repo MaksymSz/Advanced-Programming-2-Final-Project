@@ -157,10 +157,10 @@ public class EventsIndexController : Controller
         return _context.Events.Any(e => e.EventId == id);
     }
 
-    public async Task<IActionResult> YourEvents(string userId)
+    public async Task<IActionResult> YourEvents()
     {
         // var events = await _context.Participation.Where(p => p.AspNetUser.Id == userId).Where(p => p.Role == "Owner").Select(p => p.Event).ToListAsync();
-        var events = await _context.Events.Where(p => p.OwnerId == userId).ToListAsync();
+        var events = await _context.Events.Where(p => p.OwnerId == _userManager.GetUserId(User)).ToListAsync();
 
         return View(events);
     }
