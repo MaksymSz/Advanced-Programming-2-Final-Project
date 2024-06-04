@@ -12,4 +12,7 @@ public class ApplicationDbContext : IdentityDbContext
     }
 
     public DbSet<LoginTest.Models.Event> Events { get; set; } = default!;
+    public DbSet<LoginTest.Models.AspNetUser> AspNetUser { get; set; } = default!;
+    public DbSet<LoginTest.Models.Participation> Participation { get; set; } = default!;
+    public DbSet<LoginTest.Models.Friendship> Friendship { get; set; } = default!;
 }

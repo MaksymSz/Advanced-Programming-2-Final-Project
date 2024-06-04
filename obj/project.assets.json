@@ -7528,19 +7528,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\szeme\\.nuget\\packages\\": {}
+    "C:\\Users\\Maksym\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\szeme\\RiderProjects\\LoginTest\\LoginTest.csproj",
+      "projectUniqueName": "C:\\Users\\Maksym\\RiderProjects\\LoginTest\\LoginTest.csproj",
       "projectName": "LoginTest",
-      "projectPath": "C:\\Users\\szeme\\RiderProjects\\LoginTest\\LoginTest.csproj",
-      "packagesPath": "C:\\Users\\szeme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\szeme\\RiderProjects\\LoginTest\\obj\\",
+      "projectPath": "C:\\Users\\Maksym\\RiderProjects\\LoginTest\\LoginTest.csproj",
+      "packagesPath": "C:\\Users\\Maksym\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Maksym\\RiderProjects\\LoginTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\szeme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Maksym\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

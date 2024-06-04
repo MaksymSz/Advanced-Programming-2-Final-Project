@@ -1,0 +1,44 @@
+﻿@model IEnumerable<LoginTest.Models.Event>
+
+
+@{
+    ViewData["Title"] = "Your Events";
+}
+
+<h1>Your Events   <i class="fa fa-fw fa-heart"></i></h1>
+<a asp-controller="EventsIndex" asp-action="Create"><i class="fa fa-fw fa-plus"></i>Create Your Event</a>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Place)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EventDate)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.EventId">@Html.DisplayFor(modelItem => item.Name)</a> 
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Place)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventDate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.EventId">Edit</a>
+                <a asp-action="Delete" asp-route-id="@item.EventId">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
