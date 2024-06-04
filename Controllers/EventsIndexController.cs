@@ -3,16 +3,18 @@ using LoginTest.Data;
 using Microsoft.EntityFrameworkCore;
 using LoginTest.Models;
 using LoginTest.Data;
-
+using Microsoft.AspNetCore.Identity;
+    
 namespace LoginTest.Controllers;
 
 public class EventsIndexController : Controller
 {
     private readonly ApplicationDbContext _context;
-
-    public EventsIndexController(ApplicationDbContext context)
+    private readonly UserManager<IdentityUser> _userManager;
+    public EventsIndexController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
     {
         _context = context;
+        _userManager = userManager;
     }
 
     public async Task<IActionResult> Index()
@@ -49,6 +51,7 @@ public class EventsIndexController : Controller
     {
         if (ModelState.IsValid)
         {
+            @event.OwnerId = _userManager.GetUserId(User);
             _context.Add(@event);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
