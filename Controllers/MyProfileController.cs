@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using LoginTest.Data;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
@@ -16,6 +17,8 @@ public class MyProfileController: Controller
 
     public IActionResult Viewer()
     {
+        // Console.WriteLine(_userManager.GetUserId(User));
+        Console.WriteLine(User.IsInRole("Admin"));
         return View();
     }
 }
