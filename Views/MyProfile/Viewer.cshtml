@@ -12,16 +12,30 @@
 }
 
 <body>
-<h1>Friends </h1>
-<ul>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Friends</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
     @foreach (var item in Model)
     {
-         @foreach( var i in UserManager.Users.ToArray()) {
-             @if (i.Id == item.SecondUserId)
-             {
-                 <li>i.UserName</li>
-             }
-         }
+        <tr>
+            @foreach( var i in UserManager.Users.ToArray()) {
+                @if (i.Id == item.SecondUserId)
+                {
+                    <th>i.UserName</th>
+                }
+            }
+        </tr>
     }
-</ul>
+    </tbody>
+</table>
+
 </body>
+
+
+    
