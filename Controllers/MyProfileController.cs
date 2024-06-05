@@ -22,7 +22,9 @@ public class MyProfileController: Controller
     {
         // Console.WriteLine(_userManager.GetUserId(User));
         Console.WriteLine(User.IsInRole("Admin"));
-        var friends = await _context.Friendship.Where(p => p.FirstUserId == _userManager.GetUserId(User)).ToListAsync();
+        var friends = await  _context.Friendship
+            .Where(f => f.FirstUserId == _userManager.GetUserId(User) || f.SecondUserId == _userManager.GetUserId(User))
+            .ToListAsync();
         return View(friends);
     }
 }

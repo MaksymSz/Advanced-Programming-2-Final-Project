@@ -16,7 +16,12 @@
 <ul>
     @foreach (var item in Model)
     {
-        <li>@item.SecondUserId</li>
+         @foreach( var i in UserManager.Users.ToArray()) {
+             @if (i.Id == item.SecondUserId)
+             {
+                 <li>i.UserName</li>
+             }
+         }
     }
 </ul>
 </body>
