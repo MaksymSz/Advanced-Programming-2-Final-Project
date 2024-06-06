@@ -7528,26 +7528,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Adam\\.nuget\\packages\\": {}
+    "C:\\Users\\Maksym\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adam\\Pulpit\\STUDIA\\C_SHARP\\f\\LoginTest.csproj",
+      "projectUniqueName": "C:\\Users\\Maksym\\RiderProjects\\LoginTest\\LoginTest.csproj",
       "projectName": "LoginTest",
-      "projectPath": "C:\\Users\\Adam\\Pulpit\\STUDIA\\C_SHARP\\f\\LoginTest.csproj",
-      "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adam\\Pulpit\\STUDIA\\C_SHARP\\f\\obj\\",
+      "projectPath": "C:\\Users\\Maksym\\RiderProjects\\LoginTest\\LoginTest.csproj",
+      "packagesPath": "C:\\Users\\Maksym\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Maksym\\RiderProjects\\LoginTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Maksym\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7560,11 +7558,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

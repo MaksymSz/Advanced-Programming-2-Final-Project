@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using LoginTest.Data;
 using LoginTest.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace LoginTest.Controllers
 {
@@ -90,11 +91,12 @@ namespace LoginTest.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("EventId,Name,Description,Place,EventDate")] Event @event)
         {
+
             if (id != @event.EventId)
             {
                 return NotFound();
             }
-
+            ModelState["OwnerId"].ValidationState = ModelValidationState.Valid;
             if (ModelState.IsValid)
             {
                 try

@@ -8,7 +8,7 @@
 
 @if (SignInManager.IsSignedIn(User))
 {
-    <p> @UserManager.GetUserId(User) 's Profile</p>
+    <p> @User.Identity?.Name 's Profile</p>
 }
 
 <body>
@@ -27,7 +27,7 @@
             @foreach( var i in UserManager.Users.ToArray()) {
                 @if (i.Id == item.SecondUserId)
                 {
-                    <th>i.UserName</th>
+                    <th>@i.UserName</th>
                 }
             }
         </tr>

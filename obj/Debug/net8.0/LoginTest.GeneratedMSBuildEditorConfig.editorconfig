@@ -17,163 +17,163 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LoginTest
 build_property.RootNamespace = LoginTest
-build_property.ProjectDir = C:\Users\Adam\Pulpit\STUDIA\C_SHARP\f\
+build_property.ProjectDir = C:\Users\Maksym\RiderProjects\LoginTest\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Adam\Pulpit\STUDIA\C_SHARP\f
+build_property.MSBuildProjectDirectory = C:\Users\Maksym\RiderProjects\LoginTest
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/AspNetUser/Create.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/AspNetUser/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/AspNetUser/Delete.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/AspNetUser/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/AspNetUser/Details.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/AspNetUser/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/AspNetUser/Edit.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/AspNetUser/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/AspNetUser/Index.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/AspNetUser/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/EventsIndex/Create.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/EventsIndex/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzSW5kZXhcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/EventsIndex/Delete.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/EventsIndex/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzSW5kZXhcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/EventsIndex/Details.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/EventsIndex/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzSW5kZXhcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/EventsIndex/Edit.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/EventsIndex/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzSW5kZXhcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/EventsIndex/Index.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/EventsIndex/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzSW5kZXhcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/EventsIndex/YourEvents.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/EventsIndex/YourEvents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzSW5kZXhcWW91ckV2ZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Event/Create.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Event/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Event/Delete.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Event/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Event/Details.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Event/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Event/Edit.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Event/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Event/Index.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Event/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Friendship/Create.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Friendship/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJpZW5kc2hpcFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Friendship/Delete.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Friendship/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJpZW5kc2hpcFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Friendship/Details.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Friendship/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJpZW5kc2hpcFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Friendship/Edit.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Friendship/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJpZW5kc2hpcFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Friendship/Index.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Friendship/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJpZW5kc2hpcFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Home/Index.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Home/Privacy.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/IO/App.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/IO/App.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSU9cQXBwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/IO/Login.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/IO/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSU9cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/MyProfile/Viewer.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/MyProfile/Viewer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlQcm9maWxlXFZpZXdlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Participation/Create.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Participation/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhdGlvblxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Participation/Delete.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Participation/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhdGlvblxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Participation/Details.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Participation/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhdGlvblxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Participation/Edit.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Participation/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhdGlvblxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Participation/Index.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Participation/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhdGlvblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Shared/Error.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/_ViewImports.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/_ViewStart.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adam/Pulpit/STUDIA/C_SHARP/f/Views/Shared/_Layout.cshtml]
+[C:/Users/Maksym/RiderProjects/LoginTest/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-l86nq14tms

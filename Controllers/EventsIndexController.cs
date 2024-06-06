@@ -4,11 +4,12 @@ using LoginTest.Data;
 using Microsoft.EntityFrameworkCore;
 using LoginTest.Models;
 using LoginTest.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace LoginTest.Controllers;
-
+[Authorize]
 public class EventsIndexController : Controller
 {
     private readonly ApplicationDbContext _context;
@@ -52,7 +53,6 @@ public class EventsIndexController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create([Bind("EventId,OwnerId,Name,Description,Place,EventDate")] Event @event)
     {
-
         // @event.EventDate = @event.EventDate.ToString("yyyy-MM-dd");
         // var unixTimestamp = (int)DateTime.Now.Subtract(new DateTime(1970, 1, 1)).TotalSeconds;
         @event.OwnerId = _userManager.GetUserId(User);
@@ -96,6 +96,8 @@ public class EventsIndexController : Controller
             return NotFound();
         }
 
+        ModelState["OwnerId"].ValidationState = ModelValidationState.Valid;
+        @event.OwnerId = _userManager.GetUserId(User);
         if (ModelState.IsValid)
         {
             try

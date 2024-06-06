@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using LoginTest.Data;
 using LoginTest.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LoginTest.Controllers
 {
+    [Authorize]
     public class FriendshipController : Controller
     {
         private readonly ApplicationDbContext _context;

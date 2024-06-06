@@ -1,12 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using LoginTest.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.AspNetCore.Identity;
 
 namespace LoginTest.Controllers;
-
+[Authorize]
 public class MyProfileController: Controller
 {
     private readonly ApplicationDbContext _context;

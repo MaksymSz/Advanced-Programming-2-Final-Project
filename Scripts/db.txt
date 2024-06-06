@@ -1,0 +1,29 @@
+
+-- events
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (1, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Glider, squirrel', 'synergize revolutionary e-commerce', 'Tarfaya', '2024-10-30');
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (2, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Sandgrouse, yellow-throated', 'evolve ubiquitous synergies', 'Armenia', '2024-11-20');
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (3, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Raccoon, common', 'orchestrate innovative eyeballs', 'Tumpang Satu', '2024-09-15');
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (4, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Sally lightfoot crab', 'cultivate back-end niches', 'Ban Lam Luk Ka', '2025-05-14');
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (5, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Galapagos dove', 'engage scalable users', 'Xinglongchang', '2025-01-10');
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (6, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Squirrel, eurasian red', 'optimize user-centric deliverables', 'Belém', '2025-03-16');
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (7, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Antelope, four-horned', 'incentivize strategic platforms', 'Urozhaynoye', '2024-10-02');
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (8, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Hawk, ferruginous', 'innovate visionary paradigms', 'Guantang', '2024-11-07');
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (9, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Arctic ground squirrel', 'envisioneer collaborative networks', 'Gao', '2024-12-25');
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (10, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Lizard, goanna', 'innovate magnetic applications', 'Maliq', '2024-08-07');
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (11, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Stick insect', 'drive open-source eyeballs', 'Guxi', '2024-06-14');
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (12, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Bandicoot, southern brown', 'cultivate B2B markets', 'Suzëmka', '2025-02-23');
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (13, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Wild water buffalo', 'engineer strategic e-services', 'Lorengau', '2024-12-21');
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (14, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Springhare', 'deploy next-generation platforms', 'Cervantes', '2024-08-16');
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (15, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Blue and yellow macaw', 'matrix customized portals', 'Feikeng', '2024-11-05');
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (16, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Springhare', 'grow rich infrastructures', 'Nîmes', '2025-05-03');
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (17, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Duck, white-faced whistling', 'innovate viral platforms', 'Carpiquet', '2024-12-01');
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (18, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Oribi', 'orchestrate sexy platforms', 'Guolemude', '2025-05-10');
+insert into Events (EventId, OwnerId, Name, Description, Place, EventDate) values (19, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'Siskin, pine', 'cultivate visionary content', 'Leluo', '2025-05-28');
+
+-- friendship
+INSERT INTO Friendship (FriendshipId, FirstUserId, SecondUserId) VALUES (1, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', '38f355f5-7cbe-4b11-8f30-79821831fadf');
+INSERT INTO Friendship (FriendshipId, FirstUserId, SecondUserId) VALUES (1, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', '4e10d4c2-0f3e-42c8-974e-3d95784dc5d5');
+INSERT INTO Friendship (FriendshipId, FirstUserId, SecondUserId) VALUES (1, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'b8eb238e-f8ab-4895-9b8f-b6ba7668afd4');
+INSERT INTO Friendship (FriendshipId, FirstUserId, SecondUserId) VALUES (1, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'e1a86a95-002d-4d32-b501-67b0e8381a2c');
+INSERT INTO Friendship (FriendshipId, FirstUserId, SecondUserId) VALUES (1, 'd4584d98-b87b-43b6-82e8-c2fb6db37b7a', 'ecca6971-6c52-434f-8966-f7ca99772ccd');
+

@@ -7,11 +7,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using LoginTest.Data;
 using LoginTest.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LoginTest.ControllersApi
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class FriendshipController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
